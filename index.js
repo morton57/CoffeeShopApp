@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect("mongodb+srv://user:1234@coffeeshop.tkunn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+mongoose.connect("mongodb://localhost:27017/CoffeeShop",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
